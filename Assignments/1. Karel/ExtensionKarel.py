@@ -6,14 +6,50 @@ File: ExtensionKarel.py
 This file is for optional extension programs. 
 """
 
+
 def main():
-    """
-    You should write your code to make Karel do its task in
-    this function. Make sure to delete the 'pass' line before
-    starting to write your own code. You should also delete this
-    comment and replace it with a better, more descriptive one.
-    """
-    pass
+    turn_left()
+    while front_is_clear():
+        paint_corner(RED)
+        move()
+    turn_right()
+    go_down()
+    go_up()
+    turn_right()
+    while front_is_clear():
+        move()
+        paint_corner(RED)
+    turn_left()
+
+
+def go_up():
+    move()
+    turn_left()
+    move()
+    paint_corner(RED)
+    move()
+    turn_right()
+    move()
+    paint_corner(RED)
+
+
+def go_down():
+    paint_corner(RED)
+    move()
+    turn_right()
+    move()
+    paint_corner(RED)
+    turn_left()
+    move()
+    turn_right()
+    move()
+    paint_corner(RED)
+    turn_left()
+
+
+def turn_right():
+    for i in range(3):
+        turn_left()
 
 
 # There is no need to edit code beyond this point

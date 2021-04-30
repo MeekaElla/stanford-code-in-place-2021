@@ -17,7 +17,69 @@ def main():
     starting to write your own code. You should also delete this
     comment and replace it with a better, more descriptive one.
     """
-    pass
+    while front_is_clear():
+        repair_damage()
+    if front_is_blocked():
+        last_repair()
+
+
+def repair_damage():
+    if no_beepers_present():
+        put_beeper()
+    turn_left()
+    if front_is_blocked():
+        turn_right()
+        for i in range(4):
+            move()
+    else:
+        while beepers_present():
+            move()
+        put_beeper()
+        while front_is_clear():
+            move()
+            if no_beepers_present():
+                put_beeper()
+        face_south()
+        go_back()
+        for i in range (3):
+            move()
+
+
+def last_repair():
+    if no_beepers_present():
+        put_beeper()
+    turn_left()
+    if front_is_blocked():
+        turn_right()
+    else:
+        if beepers_present():
+            move()
+        put_beeper()
+        while front_is_clear():
+            move()
+            if no_beepers_present():
+                put_beeper()
+        face_south()
+        while front_is_clear():
+            move()
+        turn_left()
+
+
+def face_south():
+    for i in range(2):
+        turn_left()
+
+
+def go_back():
+    while beepers_present():
+        move()
+        if front_is_blocked():
+            turn_left()
+
+
+def turn_right():
+    for i in range(3):
+        turn_left()
 
 
 # There is no need to edit code beyond this point

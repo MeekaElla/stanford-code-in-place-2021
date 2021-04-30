@@ -15,12 +15,37 @@ assume that it is at least as tall as it is wide.
 
 def main():
     """
-    You should write your code to make Karel do its task in
-    this function. Make sure to delete the 'pass' line before
-    starting to write your own code. You should also delete this
-    comment and replace it with a better, more descriptive one.
+    Your code here
     """
-    pass
+    if front_is_clear():
+        while front_is_clear():
+            move()
+            put_beeper()
+        pick_beeper()
+        turn_around()
+        move()
+        picking_beepers()
+        put_beeper()
+        if right_is_blocked():
+            turn_around()
+    else:
+        put_beeper()
+
+
+def picking_beepers():
+    while beepers_present():
+        if beepers_present():
+            pick_beeper()
+            move()
+            while beepers_present():
+                move()
+        turn_around()
+        move()
+
+
+def turn_around():
+    for i in range(2):
+        turn_left()
 
 
 # There is no need to edit code beyond this point
