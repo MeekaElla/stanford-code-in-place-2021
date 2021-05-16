@@ -6,14 +6,27 @@ you'd like to do so.
 """
 
 
+import random
+
+NUM_CORRECT = 3
+
+
 def main():
-    """
-    You should write your code for this program in this function.
-    Make sure to delete the 'pass' line before starting to write
-    your own code. You should also delete this comment and replace
-    it with a better, more descriptive one.
-    """
-    pass
+    counter = 0
+
+    while counter < NUM_CORRECT:
+        num1 = random.randint(10,99)
+        num2 = random.randint(10,99)
+        print(f"What is {num1} + {num2}? ")
+        total = num1 + num2
+        user_answer = int(input("Your answer: "))
+        if user_answer == total:
+            counter += 1
+            print(f"Correct! You've gotten {counter} correct in a row")
+        else:
+            print(f"Incorrect. The expected answer is {total}")
+            counter = 0
+    print("Congratulations! You mastered addition.")
 
 
 # This provided line is required at the end of a Python file

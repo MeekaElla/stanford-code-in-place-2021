@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2921ac0f-6ed7-4202-9b27-66efadf348f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CodeInPlaceAssignment1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodeInPlaceAssignment1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CleanupKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/CleanupKarel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtensionKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtensionKarel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleKarel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RampClimbingKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/RampClimbingKarel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoneMasonKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/StoneMasonKarel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Welcome2021.py" beforeDir="false" afterPath="$PROJECT_DIR$/Welcome2021.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/khansole_academy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/khansole_academy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/liftoff.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/liftoff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/madlibs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/madlibs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/nimm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/nimm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/random_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/random_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Khansole Academy/subtract_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2. Khansole Academy/subtract_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2. Khansole Academy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -170,7 +169,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618786716995</updated>
-      <workItem from="1619809723669" duration="1195000" />
+      <workItem from="1619809723669" duration="1689000" />
+      <workItem from="1619962040704" duration="1265000" />
+      <workItem from="1621126535169" duration="611000" />
     </task>
     <servers />
   </component>
@@ -187,12 +188,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/1__Karel$PuzzleKarel.coverage" NAME="PuzzleKarel Coverage Results" MODIFIED="1619810270769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1__Karel$RampClimbingKarel.coverage" NAME="RampClimbingKarel Coverage Results" MODIFIED="1619810809423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1__Karel$StoneMasonKarel.coverage" NAME="StoneMasonKarel Coverage Results" MODIFIED="1619810925878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1__Karel$SafePickup.coverage" NAME="SafePickup Coverage Results" MODIFIED="1619810182065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1__Karel$SafePickup.coverage" NAME="SafePickup Coverage Results" MODIFIED="1619810966687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1__Karel$CleanupKarel.coverage" NAME="CleanupKarel Coverage Results" MODIFIED="1619810610268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/1__Karel$Welcome2021.coverage" NAME="Welcome2021 Coverage Results" MODIFIED="1619810653812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
